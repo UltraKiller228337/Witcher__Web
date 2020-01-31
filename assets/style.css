@@ -1,0 +1,232 @@
+body, h1, h2, h3, h4, h5, h6, li, ol, u, p {
+	margin: 0;
+	font-family: 'Heebo', sans-serif;
+}
+
+a {
+	color: black
+}
+
+*{
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+
+	width: 1450px;
+	margin: 0 auto;
+}
+
+.header__container {
+	width: 1450px;
+	margin: 0 auto;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;	
+}
+
+.info__container {
+	width: 1450px;
+	margin: 0 auto;
+
+	display: flex;
+	justify-content: space-between;
+
+	margin-top: 60px;
+}
+
+header {
+	display: flex;
+	align-items: center;
+
+	background-color: black;
+	height: 100px;
+}
+
+.header__link {
+	display: inline-block;
+	margin-right: 65px;
+
+	color: white;
+	font-size: 14px;
+	font-weight: 700;	
+}
+
+.header__link:last-child {
+	margin-right: 0;
+}
+
+.header__logotype {
+	width: 150px;
+}
+
+.info {
+	display: flex;
+	justify-content: space-between;
+	height: 500px;		
+
+	position: relative;
+
+	background-image: url(https://avatars.mds.yandex.net/get-kinopoisk-post-img/1539913/535036e1298f9be1a20faa5cec9c51ff/960x540);
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+	background-attachment: fixed;
+}
+
+/*	При наведении на Title должен появляться .info__date.
+
+	Он должен плавно, чут-чуть смещать title  останавливаться над ним. */
+
+.info__title {
+	font-size: 50px;
+
+	margin-top: 20px;
+}
+
+.info__link {
+	position: absolute;
+	bottom: 0px;
+
+	margin-bottom: 20px;
+
+	color: white;
+	
+	font-size: 18px;
+
+	transition: .6s;
+}
+
+.info__link:hover {
+	color: red;
+}
+
+.header {
+	height: 100px;
+	border-bottom: 5px black;
+}
+
+.session {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+	height: 80px;
+
+	margin-bottom: 40px;
+
+	border-bottom: solid 2px black;
+}
+
+.session__place {
+	margin-right: 50px;
+}
+
+.session__time {
+	margin-right: auto;
+}
+
+.info-panel {
+	width: 50vw;
+}
+
+
+.comment__text {
+	margin-bottom: 15px;
+	padding-left: 10px;
+	border-left: solid 3px red;
+}
+
+.comment__author {
+	font-size: 13px;
+}
+
+.comment__ist {
+	font-size: 15px;
+}
+
+.info-des__body {
+	margin-bottom: 30px;
+}
+
+.manifest__body {
+	padding: 15px;
+	border: solid 2px black;
+
+	position: relative;
+
+	margin-bottom: 30px;
+}
+
+.manifest__body :before {
+	content: "";
+	display: block;
+
+	position: absolute;
+	bottom: -12px;
+
+	background-color: white;
+
+	height: 20px;
+	width: 20px;
+
+	transform: rotate(45deg);
+
+	border-bottom: solid 2px black;
+	border-right: solid 2px black ;
+}
+
+.manifest__author {
+	margin-bottom: 15px;
+
+	font-size: 13px;
+}
+
+.speaker {
+	display: flex;
+	align-items: center;
+}
+
+.speakers {
+	margin-top: 60px;
+	width: 400px;
+	height: 200px;
+	
+	padding: 10px 20px;
+	border: solid 5px black;
+}
+
+.speaker__title {
+	font-size: 25px;
+}
+
+.speaker__photo {
+	height: 80px;
+	width: 80px;
+
+	border-radius: 50%;
+}
+
+.speaker__left {
+	margin-right: 60px;
+	margin-top: 20px;
+}
+
+.speaker__right, speaker__left{
+	margin-top: 30px;
+}
