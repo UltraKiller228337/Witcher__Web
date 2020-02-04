@@ -94,7 +94,7 @@ header {
 	Он должен плавно, чут-чуть смещать title  останавливаться над ним. */
 
 .info__title {
-	font-size: 50px;
+	font-size: 48px;
 
 	margin-top: 20px;
 }
@@ -212,7 +212,7 @@ header {
 }
 
 .speaker__title {
-	font-size: 65px;
+	font-size: 35px;
 }
 
 .speaker__photo {
